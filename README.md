@@ -1,7 +1,5 @@
 # Blathers' Blabber
 
-[![Codeship Status for Jgorin/Blathers-Blabber](https://app.codeship.com/projects/9edc125d-980e-4a43-8987-1fff786abacb/status?branch=main)](https://app.codeship.com/projects/442458)
-
 Welcome to Blathers' Blabber! Here you'll find the best animal ratings in town! Come one, come all, and see all our amazing animals on display. Then rate them. Wahoo!
 
 Blathers is a character from a popular video game Animal Crossing by Nintendo. In the game, he owns a museum where he collects and researches various critters and wildlife.
@@ -10,8 +8,6 @@ Help Blathers explore the local wildlife and collect data for his museum! With t
 and upvote/downvote a review to say whether it was helpful or not.
 
 This app is built using React on Rails and Postgres.
-
-Visit https://blathers-blabber.herokuapp.com/ to check out our review site!
 
 # Instructions to Run App Locally
 Dependencies:
@@ -27,20 +23,20 @@ bundle exec rake db:create
 In a separate terminal window, run `bundle exec rails s`.
 In another terminal window, run `yarn run start`.
 
+If you are using Windows or Linux, add these lines in the database.yml file under both the development and test code blocks
+
+```
+username: postgres
+password: <your database password here>
+host: localhost
+
+```
+
 # TODO
 Future plans for the app:
 1. Search functionality on the animal index page
 2. Ability to edit a user on a user profile page
 3. Adding comments to reviews
 4. Edit existing animals and reviews
-
-# Guidelines on how to contribute
-We follow the "fork-and-pull" Git workflow.
-
-1. Fork the repo on GitHub
-2. Clone the project to your own machine
-3. Commit changes to your own branch
-4. Push your work back up to your fork
-5. Submit a Pull request so that we can review your changes
 
 NOTE: Be sure to merge the latest from "main" before making a pull request!
