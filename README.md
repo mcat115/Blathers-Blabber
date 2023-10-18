@@ -11,8 +11,8 @@ This app is built using React on Rails and Postgres.
 
 # Instructions to Run App Locally
 Dependencies:
-1. Ruby (greater than v2.7.3)
-2. Postgres (greater than v13.2)
+1. Ruby v2.7.3
+2. Postgres v13.2
 
 ```
 git clone https://github.com/Jgorin/Blathers-Blabber.git
